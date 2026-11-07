@@ -1,0 +1,27 @@
+{
+  "name": "pi-taskline",
+  "version": "0.1.0",
+  "description": "Codex-style status line for pi: what each session is working on, plus idle/working/waiting/failed state.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "statusline",
+    "footer"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "extensions"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tungmv/pi-taskline.git"
+  },
+  "author": "tungmv"
+}
